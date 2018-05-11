@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "sauron";
+  src: url('anicb___.ttf');
+  src: url('anicm___.ttf');
+  src: url('anirb___.ttf');
+  src: url('anirm___.ttf');
+}
+
+body{
+  font-family: sauron;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bg-light {
+
+  background-color: red;
+}
+
+strong {
+    color: orange;
+    font-weight: normal;
+  }
+  
+  figure {
+    background-size: cover;
+    width: 400px;
+    height: 240px;
+    position: relative;
+  }
+  
+  figure img {
+    width:200px;
+    opacity: 0.5;
+  }
+  
+  figure:hover img {
+    opacity: 1;
+  }
+  
+  figure:hover figcaption {
+    display: none;
+  }
+  
+  
+  figcaption {
+    border-radius: 20px;
+    font-size: 1.em;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 180px;
+  }
+  
+  figcaption p {
+    margin: 0;
+  }
+  .navbar-brand {
+  background-color: #ff8000;
+  font-size: 14px;
+}
+
+.nav-item 
+ {
+  background-color: #ff8000;
+  font-size: 14px;
+}
+
+.navbarNarcollapse
+ {
+  background-color: #ff8000;
+  font-size: 14px;
+}
+.name-wanted{
+  position: absolute;
+  margin: 0;
+  
+  text-align: center;
+   bottom: 300px;
+   top:350px;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+}
